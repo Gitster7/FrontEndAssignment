@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Front End Assignment</title>
+  <!-- Boottstrap styles -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+  <!-- Custom styles -->
+  <link rel="stylesheet" href="./styles/styles.css">
+</head>
+
+<body>
+  <!-- Banner 1 -->
+  <div class="container-fluid bannerFirst">
+    <img class="bannerImage" src="https://c4.wallpaperflare.com/wallpaper/190/111/674/autumn-girl-leaves-nature-wallpaper-preview.jpg" alt="Hero Banner">
+    <div class="bannerFirstContent">
+      <h1 class="bannerFirstContentHeadeing">Lorem Ipsum</h1>
+      <p class="bannerFirstContentPara">Vestibulum fermentum dui et augue ultrices aliquam.
+        Vestibulum pharetra magna ut vulputate suscipit. Morbi congue luctus pellentesque.
+        Sed venenatis felis a tempor molestie. Fusce luctus velit mattis vehicula ornare.
+        Donec sodales aliquet magna, ut tempus mauris accumsan ac.</p>
+    </div>
+  </div>
+
+  <!-- Banner 2 -->
+  <div class="container-fluid bannerSecond">
+    <img class="bannerImage" src="https://p4.wallpaperbetter.com/wallpaper/929/1017/70/city-lights-bokeh-lights-blurred-blurry-wallpaper-preview.jpg" alt="Full Width Banner">
+    <div class="bannerSecondContent">
+      <h1 class="bannerSecondContentHeading">Lorem Ipsum</h1>
+      <p class="bannerSecondContentPara">Interdum et malesuada fames ac ante ipsum primis in faucibus.
+        Fusce vel ipsum id massa iaculis egestas. Donec rutrum euismod lorem ut fringilla.</p>
+    </div>
+  </div>
+
+  <!-- 2 Column Boxes -->
+  <div class="container grid">
+    <div class="row">
+      <div class="col">
+        <img class="gridImage" id="gridImage1" src="https://i.pinimg.com/originals/2e/f9/51/2ef951069be537b4f6b9a707bbb1fe54.jpg" alt="Landscape">
+        <h3>Lorem Ipsum</h3>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+          sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+          Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+          Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        </p>
+      </div>
+      <div class="col">
+        <img class="gridImage" id="gridImage2" src="https://p0.pikrepo.com/preview/891/664/red-maple-leaf-on-black-rock.jpg" alt="Maple Leaf">
+        <h3>Lorem Ipsum</h3>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+          sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+          Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+          Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Left-Right Image Sections -->
+  <div class="container">
+    <div class="row" id="listImage1">
+      <div class="col colt">
+        <img class="listImage leftImage" src="https://miro.medium.com/max/3840/1*U18aWqq2322t8Z26zZ0SIg.jpeg" alt="Nature Image">
+        <div class="listContent">
+          <h3>Lorem Ipsum</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="row" id="listImage2">
+      <div class="col">
+        <img class="listImage rightImage" src="https://cdn2.outdoorphotographer.com/2019/09/sm-6167-407x305.jpg" alt="Nature Image">
+        <div class="listContent">
+          <h3>Lorem Ipsum</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="row" id="listImage3">
+      <div class="col">
+        <img class="listImage leftImage" src="https://artofcreativephotography.com/wp-content/uploads/2019/03/David-Koester-Start-In-Die-Landschaftsfotografie-VII.jpg" alt="Nature Image">
+        <div class="listContent">
+          <h3>Lorem Ipsum</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <!-- Form  -->
+  <div class="container-fluid tableForm">
+    <form class="" action="/" method="post">
+      <div class="row listRow">
+        <div class="col">
+          <input type="text" class="input" name="taskName" placeholder="Enter Task Name" required>
+          <input type="text" class="input" name="jiraId" placeholder="Enter Jira ID">
+          <input type="date" class="input" name="dueDate">
+        </div>
+      </div>
+      <div class="row listRow">
+        <div class="col">
+          <input type="text" style="width: 91%" class="input" name="xdlink" placeholder="Enter XD link">
+        </div>
+      </div>
+      <div class="row listRow">
+        <div class="col">
+          <select class="selection input" name="team">
+            <option value="" disabled selected>Select Team</option>
+            <option name="Team level 1" value="Team level 1">Team Level 1</option>
+            <option name="Team level 2" value="Team level 2">Team Level 2</option>
+            <option name="Team level 3" value="Team level 3">Team Level 3</option>
+            <option name="Team level 4" value="Team level 4">Team Level 4</option>
+            <option name="Team level 5" value="Team level 5">Team Level 5</option>
+            <option name="Team level 6" value="Team level 6">Team Level 6</option>
+            <option name="Team level 7" value="Team level 7">Team Level 7</option>
+          </select>
+          <select class="selection input" name="assignee">
+            <option value="" disabled selected>Select Assignee</option>
+            <option name="Gaurav" value="Gaurav">Gaurav</option>
+            <option name="Tanzil" value="Tanzil">Tanzil</option>
+            <option name="Minaj" value="Minaj">Minaj</option>
+            <option name="BK" value="BK">BK</option>
+            <option name="Sudha" value="Sudha">Sudha</option>
+          </select>
+          <select class="selection input" name="status">
+            <option name="" value="" disabled selected>Select Status</option>
+            <option name="In QC" value="In QC">In QC</option>
+            <option name="UAT" value="UAT">UAT</option>
+            <option name="In Progress" value="In Progress">In Progress</option>
+            <option name="Completed" value="Completed">Completed</option>
+          </select>
+        </div>
+      </div>
+      <div class="row listRow">
+        <div class="col">
+          <button type="submit" class="btn btn-outline-success" name="addBtn">ADD/UPDATE</button>
+        </div>
+      </div>
+    </form>
+
+  </div>
+
+
+  <!-- Table 1 -->
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col">
+        <table id="table1" class="tableOne table table-light table-bordered">
+          <thead class="tableHeader table-secondary">
+            <th>Sl No</th>
+            <th>Tasks</th>
+            <th>Team</th>
+            <th>created</th>
+            <th>Due Date</th>
+            <th>Jira ID</th>
+            <th>Mock Up</th>
+            <th>Assignee</th>
+            <th>Status</th>
+            <th>Actions</th>
+          </thead>
+          <tbody>
+
+            <!-- TEMPLATE TO ADD NEW ENTRIES -->
+            <%for(var i = 0; i < Entries.length; i++){%>
+            <%Entries[i].id = i+1 %>
+            <tr id="tableRow">
+              <td id="id"><%= i + 1 %></td>
+              <td id="taskName"><%=Entries[i].taskName%></td>
+              <td id="team"><%=Entries[i].team%></td>
+              <td id="date"><%=date%></td>
+              <td id="dueDate"><%=Entries[i].dueDate%></td>
+              <td id="jid"><%="JIRAID-" + Entries[i].jiraId%></td>
+              <td id="mockUp">XD</td>
+              <td id="assignee"><%=Entries[i].assignee%></td>
+              <td id="status"><%=Entries[i].status%></td>
+              <td>
+                <button type="button" id="<%=i+1%>" onclick="transfer(<%=Entries[i].id%>,'<%=Entries[i].taskName%>','<%=Entries[i].team%>', '<%=Entries[i].dueDate%>', '<%=Entries[i].jiraId%>', '<%=Entries[i].assignee%>', '<%=Entries[i].status%>' )"
+                  class="btn btn-success btn-edit" name="edit">Edit</button>
+                <button type="button" onclick="complete(<%=Entries[i].id%>)" class="btn btn-danger" name="close">Close</button>
+              </td>
+            </tr>
+            <%}%>
+
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+
+  <!-- Table 2 -->
+  <!-- verify the spelling of jiraid -->
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col">
+        <table id="table2" class="tableTwo table table-light table-bordered">
+          <thead class="tableHeader table-secondary">
+            <th>Sl No</th>
+            <th>Tasks</th>
+            <th>Team</th>
+            <th>created</th>
+            <th>Due Date</th>
+            <th>Jira ID</th>
+            <th>Mock Up</th>
+            <th>Assignee</th>
+            <th>Status</th>
+            <th>Actions</th>
+          </thead>
+          <tbody>
+            <!-- TEMPLATE TO ADD NEW ENTRIES(COMPLETED) -->
+            <%for(var i = 0; i < EntriesCompleted.length; i++){%>
+            <%EntriesCompleted[i].id = i+1 %>
+            <tr id="tableRow2">
+              <td id="id2"><%= i + 1 %></td>
+              <td id="taskName2"><%=EntriesCompleted[i].taskName%></td>
+              <td id="team2"><%=EntriesCompleted[i].team%></td>
+              <td id="date2"><%=date%></td>
+              <td id="dueDate2"><%=EntriesCompleted[i].dueDate%></td>
+              <td id="jid2"><%="JIRAID-" + EntriesCompleted[i].jiraId%></td>
+              <td id="mockUp2">XD</td>
+              <td id="assignee2"><%=EntriesCompleted[i].assignee%></td>
+              <td id="status2"><%=EntriesCompleted[i].status%></td>
+              <td>
+                <button type="button" onclick="revert(<%=EntriesCompleted[i].id%>)" class="btn btn-success btn-revert" name="revert">Revert</button>
+              </td>
+            </tr>
+            <%}%>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- Jquery CDN -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+  <!-- Custom script -->
+
+  <script type="text/javascript">
+
+  // Check the current position of the viewport and add animations
+
+    ;(function($, win) {
+  $.fn.inViewport = function(cb) {
+     return this.each(function(i,el) {
+       function visPx(){
+         var elH = $(el).outerHeight(),
+             H = $(win).height(),
+             r = el.getBoundingClientRect(), t=r.top, b=r.bottom;
+         return cb.call(el, Math.max(0, t>0? Math.min(elH, H-t) : Math.min(b, H)));
+       }
+       visPx();
+       $(win).on("resize scroll", visPx);
+     });
+  };
+  }(jQuery, window));
+
+  $(".bannerFirstContent").inViewport(function(px) {
+  console.log( px ); // `px` represents the amount of visible height
+  if(px > 0) {
+    var bannerFirstContent = document.querySelector('.bannerFirstContent');
+    bannerFirstContent.style.marginLeft = "25px";
+  }
+});
+
+$(".bannerSecondContent").inViewport(function(px) {
+console.log( px ); // `px` represents the amount of visible height
+if(px > 0) {
+  var bannerSecondContent = document.querySelector('.bannerSecondContent');
+  bannerSecondContent.style.marginRight = "25px";
+  var gridImage1 = document.querySelector('#gridImage1');
+  var gridImage2 = document.querySelector('#gridImage2');
+  gridImage1.style.marginTop = "0px";
+  gridImage2.style.marginTop = "0px";
+}
+});
+
+// $(".gridImage").inViewport(function(px) {
+// console.log( px ); // `px` represents the amount of visible height
+// if(px > 0) {
+//   var gridImage1 = document.querySelector('#gridImage1');
+//   var gridImage2 = document.querySelector('#gridImage2');
+//   gridImage1.style.marginTop = "0px";
+//   gridImage2.style.marginTop = "0px";
+// }
+// });
+
+$(".listImage").inViewport(function(px) {
+console.log( px ); // `px` represents the amount of visible height
+if(px > 0) {
+  var listImage1 = document.querySelector('#listImage1');
+  var listImage2 = document.querySelector('#listImage2');
+  var listImage3 = document.querySelector('#listImage3');
+  listImage1.style.marginLeft = "0px";
+  listImage2.style.marginRight = "0px";
+  listImage3.style.marginLeft = "0px";
+}
+});
+    // TRANSFER THE DATA FROM TABLE TO FORM
+
+    function transfer(id, taskName, team, dueDate, jiraId, assignee, status) {
+      console.log(id, taskName, team, dueDate, jiraId, assignee, status);
+
+      document.getElementsByName("taskName")[0].setAttribute("value", taskName);
+      document.getElementsByName(team)[0].setAttribute("selected", true);
+      document.getElementsByName("dueDate")[0].setAttribute("value", dueDate);
+      document.getElementsByName("jiraId")[0].setAttribute("value", jiraId);
+      document.getElementsByName(assignee)[0].setAttribute("selected", true);
+      document.getElementsByName(status)[0].setAttribute("selected", true);
+    }
+    //TRANSFER DATA FROM TABLE1 TO TABLE2
+
+    function complete(id){
+    //  console.log(id);
+      document.querySelectorAll("#status")[id-1].innerHTML = "Completed";
+
+    //An object to store updated ENTRIES
+    const Entry = {
+      id: document.querySelectorAll("#tableRow #id")[id-1],
+      taskName: document.querySelectorAll("#tableRow #taskName")[id-1],
+      jiraId: document.querySelectorAll("#tableRow #jiraId")[id-1],
+      xdlink: document.querySelectorAll("#tableRow #mockUp")[id-1],
+      team: document.querySelectorAll("#tableRow #team")[id-1],
+      assignee: document.querySelectorAll("#tableRow #assignee")[id-1],
+      status: document.querySelectorAll("#tableRow #status")[id-1],
+      dueDate: document.querySelectorAll("#tableRow #dueDate")[id-1]
+    };
+      var updatedEntries =[];
+
+      updatedEntries.push(Entry);
+      console.log(updatedEntries[0].assignee.innerText);
+      document.getElementById("table1").deleteRow(id);
+
+      var table = document.getElementById("table2");
+      var row = table.insertRow(1);
+      var cell1 = row.insertCell(0);
+      var cell2 = row.insertCell(1);
+      var cell3 = row.insertCell(2);
+      var cell4 = row.insertCell(3);
+      var cell5 = row.insertCell(4);
+      var cell6 = row.insertCell(5);
+      var cell7 = row.insertCell(6);
+      var cell8 = row.insertCell(7);
+      var cell9 = row.insertCell(8);
+      var cell10 = row.insertCell(9);
+
+      cell1.innerHTML = "New";
+      cell2.innerHTML = updatedEntries[0].taskName.innerText;
+      cell3.innerHTML = updatedEntries[0].team.innerText;
+      cell4.innerHTML = "2012-12-19";
+      cell5.innerHTML = updatedEntries[0].dueDate.innerText;
+      cell6.innerHTML = "<p style='color: blue'>'JIRAID-XXX'</p>";
+      cell7.innerHTML = "XD";
+      cell8.innerHTML = updatedEntries[0].assignee.innerText;
+      cell9.innerHTML = "Completed";
+      cell10.innerHTML = "<button type='button' class='btn btn-success btn-revert' name='revert'>Revert</button>";
+    }
+
+    //REVERT DATA FROM TABLE2 TO TABLE1
+
+    function revert(id){
+      document.querySelectorAll("#status2")[id-1].innerHTML = "In Progress";
+
+      //An object to store updated ENTRIES
+      const Entry2 = {
+        id: document.querySelectorAll("#tableRow2 #id2")[id-1],
+        taskName: document.querySelectorAll("#tableRow2 #taskName2")[id-1],
+        jiraId: document.querySelectorAll("#tableRow2 #jiraId2")[id-1],
+        xdlink: document.querySelectorAll("#tableRow2 #mockUp2")[id-1],
+        team: document.querySelectorAll("#tableRow2 #team2")[id-1],
+        assignee: document.querySelectorAll("#tableRow2 #assignee2")[id-1],
+        status: document.querySelectorAll("#tableRow2 #status2")[id-1],
+        dueDate: document.querySelectorAll("#tableRow2 #dueDate2")[id-1]
+      };
+        var updatedEntries2 =[];
+
+        updatedEntries2.push(Entry2);
+        console.log(updatedEntries2[0].assignee.innerText);
+        document.getElementById("table2").deleteRow(id);
+
+        var table = document.getElementById("table1");
+        var row = table.insertRow(1);
+        var cell1 = row.insertCell(0);
+        var cell2 = row.insertCell(1);
+        var cell3 = row.insertCell(2);
+        var cell4 = row.insertCell(3);
+        var cell5 = row.insertCell(4);
+        var cell6 = row.insertCell(5);
+        var cell7 = row.insertCell(6);
+        var cell8 = row.insertCell(7);
+        var cell9 = row.insertCell(8);
+        var cell10 = row.insertCell(9);
+
+        cell1.innerHTML = "New";
+        cell2.innerHTML = updatedEntries2[0].taskName.innerText;
+        cell3.innerHTML = updatedEntries2[0].team.innerText;
+        cell4.innerHTML = "2012-12-19";
+        cell5.innerHTML = updatedEntries2[0].dueDate.innerText;
+        cell6.innerHTML = "<p style='color: blue'>'JIRAID-XXX'</p>";
+        cell7.innerHTML = "XD";
+        cell8.innerHTML = updatedEntries2[0].assignee.innerText;
+        cell9.innerHTML = "In Progress";
+        cell10.innerHTML =  "<button type='button' class='btn btn-success btn-edit' name='edit'>Edit</button> <button type='button'  onclick='complete(id)' class='btn btn-danger' name='close'>Close</button>";
+      }
+  </script>
+</body>
+</html>

@@ -1,0 +1,179 @@
+/* Banner */
+.container-fluid.bannerFirst{
+  position: relative;
+}
+
+.bannerImage{
+  width: 100%;
+  height: auto;
+  transform: scaleX(-1);
+  padding: 0 0 2em 0;
+}
+
+.bannerFirstContent{
+  position: absolute;
+  text-align: center;
+  z-index: 1;
+  top: 5%;
+  color: #fff;
+  padding: 0.3rem 7rem;
+}
+
+.container-fluid.bannerSecond{
+  position: relative;
+}
+
+.bannerSecondContent{
+  position: absolute;
+  text-align: right;
+  z-index: 1;
+  top: 15%;
+  right: 12%;
+  width: 30%;
+  color: #fff;
+}
+
+/* Containers */
+/* Grid Image */
+.container.grid{
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.gridImage, .listImage{
+  width: 30rem;
+  height: 20rem;
+  padding: 20px 0;
+}
+
+.leftImage{
+  float: left;
+  padding-right: 20px;
+}
+
+.rightImage{
+  float: right;
+  padding-left: 20px;
+}
+
+.listContent{
+  margin: 50px 0;
+}
+
+
+/* Form */
+.tableForm{
+  text-align: center;
+  display: inline-block;
+}
+
+.listRow{
+  padding: 15px 0px 10px 8px;
+}
+
+.selection, .input{
+  width: 30%;
+  padding: 5px 8px;
+  color: #707070;
+}
+
+
+#xd{
+  display: block;
+}
+
+#addBtn{
+  display: block;
+  margin: 0 auto;
+}
+
+/* Tables */
+.tableDisplay{
+  padding: 1.2rem 7rem;
+}
+
+.table{
+  text-align: center;
+}
+
+.tableHeader{
+  color: #fff;
+  text-align: center;
+}
+
+.jid, .mockUp{
+  color: blue;
+}
+
+/* ANIMATIONS */
+.bannerFirstContent{
+  margin-top: 50px;
+  margin-left: -2000px;
+  transition: 3s;
+  text-align: center;
+}
+
+.bannerSecondContent{
+  margin-top: 50px;
+  margin-right: -2000px;
+  transition: 3s;
+}
+
+#gridImage1, #gridImage2{
+  margin-top: 2000px;
+  transition: 7s;
+}
+
+#listImage1, #listImage3{
+  margin-Left: 2000px;
+  transition: 3s;
+}
+
+#listImage2{
+  margin-right: 2000px;
+  transition: 5s;
+}
+
+
+/* QUERIES */
+/* Responsive Texts */
+/* If the screen size is 901px wide or more, set the font-size of bannerHeading to 80px */
+@media screen and (min-width: 901px) {
+  .bannerFirstContentHeadeing, .bannerSecondContentHeading{
+    font-size: 50px;
+  }
+/* If the screen size is 901px wide or more, set the font-size of bannerPara to 30px */
+  .bannerFirstContentPara, .bannerSecondContentPara{
+    font-size: 25px;
+  }
+}
+
+/* If the screen size is  wide or less, set the font-size of bannerHeading to 30px */
+@media screen and (max-width: 900px) {
+  .bannerFirstContentHeadeing, .bannerSecondContentHeading{
+    font-size: 20px;
+  }
+
+  /* If the screen size is 900px wide or less, set the font-size of h3 to 10px */
+  h3{
+    font-size: 15.58px;
+  }
+
+  /* If the screen size is 900px wide or less, set the width of gridImage to 12rem */
+  .gridImage, .listImage{
+    width : 12rem;
+    height: 12rem;
+  }
+
+/* If the screen size is 900px wide or less, set the font-size of bannerPara to 10px */
+  .bannerFirstContentPara, .bannerSecondContentPara, p, .tableForm, .table, .btn{
+    font-size: 10px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .btn{
+    width: 10px;
+    font-size: 5px;
+  }
+  }
